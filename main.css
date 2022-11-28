@@ -1,0 +1,30 @@
+div.slider {
+    display: flex;
+    justify-content: center;
+}
+
+div.content img {
+    height: 160px;
+    width: 275px;
+    margin: 0px 9px;
+}
+
+div.content {
+    width: 293px;
+    text-align: center;
+    margin: 25px 60px;
+
+}
+
+.subcontainer {
+    display: flex;
+    margin: 0px 1px
+        /* overflow-y: hidden;
+overflow-x: scroll; */
+}
+
+.subcontainer {
+    overflow-y: hidden;
+    overflow-x: scroll;
+    cursor: pointer;
+}

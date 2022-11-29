@@ -42,9 +42,9 @@ ul {
 }
 
 div.sreachbox {
-    display: inline-flex;
+    display: inline;
     align-self: center;
-    width: 380px;
+    width: 395px;
 }
 
 #sreach {

@@ -1,7 +1,8 @@
-div.slider{
-    margin: 0 120px;
-overflow: hidden;
-position: relative;
+div.slider {
+    margin: 0 auto;
+    width: 75vw;
+    overflow: hidden;
+    /* position: relative; */
 }
 
 div.content img {

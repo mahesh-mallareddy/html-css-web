@@ -1,9 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200&family=Syne+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
 * {
     margin: 0;
     padding: 0;
 }
 
 header {
+    background-color: #134b5f;
+    font-family: 'Lato', sans-serif;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -15,44 +19,40 @@ header {
 }
 
 nav {
-    background-color: #134b5f;
-    color: white;
     display: flex;
     justify-content: space-between;
-    height: 70px;
+    /* height: 70px; */
+    
 }
 
-.navbar ul li a {
+.list ul li a {
     color: white;
-    /* display: inline-flex; */
     text-decoration: none;
-    font-style: normal;
-    font-weight: lighter;
-    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
 }
 
-.navbar ul li {
-    display: inline;
-    margin: 23px;
+.list  ul li {
+    padding: 0 25px;
+    list-style: none;
 }
 
-ul {
-    display: inline-flex;
-    padding: 13px 39px;
+nav ul {
+    display: flex;
+    align-items: center;
+    height: 74px;
 }
 
 div.sreachbox {
-    display: inline;
+    display: flex;
     align-self: center;
-    width: 395px;
 }
 
 #sreach {
     background-color: #51abcb;
-    width: 320px;
+    width: 18vw;
     height: 25px;
     border: none;
-    /* display: ; */
     border-radius: 8px;
     cursor: pointer;
     margin: 0 7px;
